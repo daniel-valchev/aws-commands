@@ -1,0 +1,8 @@
+/vendor/
+/.env.local
+/.env.local.php
+/.env.*.local
+/.env.test
+/.idea
+.phpunit.result.cache
+.phpunit.cache

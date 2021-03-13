@@ -1,0 +1,201 @@
+{
+  "DBInstances": [
+    {
+      "DBInstanceIdentifier": "terraform-20190627132842861700000006",
+      "DBInstanceClass": "db.t3.small",
+      "Engine": "postgres",
+      "DBInstanceStatus": "available",
+      "MasterUsername": "test",
+      "Endpoint": {
+        "Address": "terraform-20190627132842861700000006.cqdfx0yssnjm.eu-west-2.rds.amazonaws.com",
+        "Port": 5432,
+        "HostedZoneId": "Z1TTGA775OQIYO"
+      },
+      "AllocatedStorage": 5,
+      "InstanceCreateTime": "2019-06-27T13:32:15+00:00",
+      "PreferredBackupWindow": "03:51-04:21",
+      "BackupRetentionPeriod": 0,
+      "DBSecurityGroups": [],
+      "VpcSecurityGroups": [
+        {
+          "VpcSecurityGroupId": "sg-05c99a5c3c9c50107",
+          "Status": "active"
+        }
+      ],
+      "DBParameterGroups": [
+        {
+          "DBParameterGroupName": "postgres-test-custom",
+          "ParameterApplyStatus": "in-sync"
+        }
+      ],
+      "AvailabilityZone": "eu-west-2a",
+      "DBSubnetGroup": {
+        "DBSubnetGroupName": "test-uat",
+        "DBSubnetGroupDescription": "RDS uat subnet group",
+        "VpcId": "vpc-09bc5d08b678ba6b0",
+        "SubnetGroupStatus": "Complete",
+        "Subnets": [
+          {
+            "SubnetIdentifier": "subnet-064ddc0608f403401",
+            "SubnetAvailabilityZone": {
+              "Name": "eu-west-2a"
+            },
+            "SubnetOutpost": [],
+            "SubnetStatus": "Active"
+          },
+          {
+            "SubnetIdentifier": "subnet-0dca689eb12f01e01",
+            "SubnetAvailabilityZone": {
+              "Name": "eu-west-2b"
+            },
+            "SubnetOutpost": [],
+            "SubnetStatus": "Active"
+          }
+        ]
+      },
+      "PreferredMaintenanceWindow": "mon:22:21-mon:22:51",
+      "PendingModifiedValues": [],
+      "MultiAZ": false,
+      "EngineVersion": "11.10",
+      "AutoMinorVersionUpgrade": true,
+      "ReadReplicaDBInstanceIdentifiers": [],
+      "LicenseModel": "postgresql-license",
+      "OptionGroupMemberships": [
+        {
+          "OptionGroupName": "default:postgres-11",
+          "Status": "in-sync"
+        }
+      ],
+      "PubliclyAccessible": false,
+      "StorageType": "gp2",
+      "DbInstancePort": 0,
+      "StorageEncrypted": true,
+      "KmsKeyId": "arn:aws:kms:eu-west-2:516349407316:key\/0c1956fc-e5c7-4b64-9a35-409f37475c1c",
+      "DbiResourceId": "db-5NM7C2BBHUPWYJZZF6SPNVGSHA",
+      "CACertificateIdentifier": "rds-ca-2019",
+      "DomainMemberships": [],
+      "CopyTagsToSnapshot": false,
+      "MonitoringInterval": 0,
+      "DBInstanceArn": "arn:aws:rds:eu-west-2:516349407316:db:terraform-20190627132842861700000006",
+      "IAMDatabaseAuthenticationEnabled": false,
+      "PerformanceInsightsEnabled": true,
+      "PerformanceInsightsKMSKeyId": "arn:aws:kms:eu-west-2:516349407316:key\/e49048cd-4d57-426c-82aa-e7323ad12024",
+      "DeletionProtection": false,
+      "AssociatedRoles": [],
+      "TagList": [
+        {
+          "Key": "Name",
+          "Value": "UAT Test"
+        }
+      ],
+      "CustomerOwnedIpEnabled": false
+    },
+    {
+      "DBInstanceIdentifier": "terraform-20191003130158387600000001",
+      "DBInstanceClass": "db.t3.small",
+      "Engine": "postgres",
+      "DBInstanceStatus": "available",
+      "MasterUsername": "test",
+      "Endpoint": {
+        "Address": "terraform-20191003130158387600000001.cqdfx0yssnjm.eu-west-2.rds.amazonaws.com",
+        "Port": 5432,
+        "HostedZoneId": "Z1TTGA775OQIYO"
+      },
+      "AllocatedStorage": 100,
+      "InstanceCreateTime": "2019-10-03T13:05:47+00:00",
+      "PreferredBackupWindow": "03:30-05:00",
+      "BackupRetentionPeriod": 7,
+      "DBSecurityGroups": [],
+      "VpcSecurityGroups": [
+        {
+          "VpcSecurityGroupId": "sg-004c66af07fe6500f",
+          "Status": "active"
+        }
+      ],
+      "DBParameterGroups": [
+        {
+          "DBParameterGroupName": "postgres-test-custom",
+          "ParameterApplyStatus": "in-sync"
+        }
+      ],
+      "AvailabilityZone": "eu-west-2b",
+      "DBSubnetGroup": {
+        "DBSubnetGroupName": "test-prod",
+        "DBSubnetGroupDescription": "RDS prod subnet group",
+        "VpcId": "vpc-09bc5d08b678ba6b0",
+        "SubnetGroupStatus": "Complete",
+        "Subnets": [
+          {
+            "SubnetIdentifier": "subnet-064ddc0608f403401",
+            "SubnetAvailabilityZone": {
+              "Name": "eu-west-2a"
+            },
+            "SubnetOutpost": [],
+            "SubnetStatus": "Active"
+          },
+          {
+            "SubnetIdentifier": "subnet-0dca689eb12f01e01",
+            "SubnetAvailabilityZone": {
+              "Name": "eu-west-2b"
+            },
+            "SubnetOutpost": [],
+            "SubnetStatus": "Active"
+          }
+        ]
+      },
+      "PreferredMaintenanceWindow": "wed:02:48-wed:03:18",
+      "PendingModifiedValues": [],
+      "LatestRestorableTime": "2021-03-14T20:32:15+00:00",
+      "MultiAZ": false,
+      "EngineVersion": "11.10",
+      "AutoMinorVersionUpgrade": true,
+      "ReadReplicaDBInstanceIdentifiers": [],
+      "LicenseModel": "postgresql-license",
+      "OptionGroupMemberships": [
+        {
+          "OptionGroupName": "default:postgres-11",
+          "Status": "in-sync"
+        }
+      ],
+      "PubliclyAccessible": false,
+      "StorageType": "gp2",
+      "DbInstancePort": 0,
+      "StorageEncrypted": true,
+      "KmsKeyId": "arn:aws:kms:eu-west-2:516349407316:key\/66d10764-c172-4cbf-a1c1-72c4c63cf0e8",
+      "DbiResourceId": "db-YDAGRHNMA6GB7Y3N2KTGKWX2PY",
+      "CACertificateIdentifier": "rds-ca-2019",
+      "DomainMemberships": [],
+      "CopyTagsToSnapshot": false,
+      "MonitoringInterval": 0,
+      "DBInstanceArn": "arn:aws:rds:eu-west-2:516349407316:db:terraform-20191003130158387600000001",
+      "IAMDatabaseAuthenticationEnabled": false,
+      "PerformanceInsightsEnabled": true,
+      "PerformanceInsightsKMSKeyId": "arn:aws:kms:eu-west-2:516349407316:key\/e49048cd-4d57-426c-82aa-e7323ad12024",
+      "DeletionProtection": false,
+      "AssociatedRoles": [],
+      "TagList": [
+        {
+          "Key": "Name",
+          "Value": "Production Test"
+        }
+      ],
+      "CustomerOwnedIpEnabled": false
+    }
+  ],
+  "@metadata": {
+    "statusCode": 200,
+    "effectiveUri": "https:\/\/rds.eu-west-2.amazonaws.com",
+    "headers": {
+      "x-amzn-requestid": "4c4dd4e1-0787-4ae1-a4d3-b363aa13957e",
+      "content-type": "text\/xml",
+      "content-length": "9132",
+      "vary": "accept-encoding",
+      "date": "Sun, 14 Mar 2021 20:39:40 GMT"
+    },
+    "transferStats": {
+      "http": [
+        []
+      ]
+    }
+  }
+}

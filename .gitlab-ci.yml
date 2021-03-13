@@ -1,0 +1,24 @@
+variables:
+    XDEBUG_MODE: coverage
+
+before_script:
+    - apt-get update && apt-get install -y zip unzip
+    - curl --silent --show-error https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+    - composer install
+    - pecl install xdebug
+    - docker-php-ext-enable xdebug
+
+static_analysis:
+    image: php:8
+    script:
+        - php --version && php -d memory_limit=-1 vendor/bin/phpstan analyse
+
+test:7.4:
+    image: php:7.4
+    script:
+        - php --version && php ./vendor/bin/phpunit tests
+
+test:8:
+    image: php:8.0
+    script:
+        - php --version && php ./vendor/bin/phpunit tests --coverage-text --colors=never

@@ -1,0 +1,36 @@
+#!/bin/bash
+
+run_cmd=true
+cmd_args=$@
+
+SOURCE="${BASH_SOURCE[0]}"
+while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink
+  DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
+  SOURCE="$(readlink "$SOURCE")"
+  [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE" # if $SOURCE was a relative symlink, we need to resolve it relative to the path where the symlink file was located
+done
+DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
+
+while test $# -gt 0
+do
+    case "$1" in
+        --help) run_cmd=false
+            ;;
+        -h) run_cmd=false
+            ;;
+        --version) run_cmd=false
+            ;;
+        -V) run_cmd=false
+            ;;
+    esac
+    shift
+done
+
+if [[ $run_cmd == false ]]
+then
+    $DIR/../awsdbt.php $cmd_args
+else
+    $DIR/../awsdbt.php $cmd_args && $(cat $DIR/../data/cmd)
+fi
+
+exit 0
