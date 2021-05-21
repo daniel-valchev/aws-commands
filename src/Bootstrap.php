@@ -29,7 +29,7 @@ class Bootstrap
         $this->container = $container;
 
         // load all the .env files
-        (new Dotenv(false))->loadEnv(__DIR__ .'/../.env');
+        (new Dotenv())->loadEnv(__DIR__ .'/../.env');
     }
 
     /**
