@@ -10,10 +10,13 @@ before_script:
 
 static_analysis:
     image: php:8
+    allow_failure: true
     script:
-        - php -d memory_limit=-1 vendor/bin/phpstan analyse -l 6 --no-progress --error-format gitlab > phpstan.json
+        - php -d memory_limit=-1 vendor/bin/phpstan analyse --no-progress --error-format gitlab > phpstan.json
     artifacts:
         when: always
+        paths:
+            - phpstan.json
         reports:
             codequality: phpstan.json
 
@@ -32,4 +35,3 @@ test:8:
             - junit-report.xml
         reports:
             junit: junit-report.xml
-

@@ -1,0 +1,1112 @@
+[
+    {
+        "description": "Parameter #1 $envKey of class Symfony\\Component\\Dotenv\\Dotenv constructor expects string, false given.",
+        "fingerprint": "73b1d5032fc882b5027a8ca59b1eb404d9d74a1330a1fbb064008d8d419a43c2",
+        "location": {
+            "path": "src/Bootstrap.php",
+            "lines": {
+                "begin": 32
+            }
+        }
+    },
+    {
+        "description": "Property App\\Core\\Container::$items type has no value type specified in iterable type array.",
+        "fingerprint": "b407e9761a81c250b2bb9a5deeca50ba9086e8d3a11667ff11aacef3430a1c1b",
+        "location": {
+            "path": "src/Core/Container.php",
+            "lines": {
+                "begin": 12
+            }
+        }
+    },
+    {
+        "description": "Method App\\Core\\Container::set() has parameter $value with no typehint specified.",
+        "fingerprint": "805af045dd0fc08c23cb0a2931d381f9720f98d89ffc2ad45853754f1a7450e2",
+        "location": {
+            "path": "src/Core/Container.php",
+            "lines": {
+                "begin": 19
+            }
+        }
+    },
+    {
+        "description": "PHPDoc tag @param has invalid value ($value): Unexpected token \"$value\", expected type at offset 44",
+        "fingerprint": "dafbc7d1d7b7cc14acbfef42d47262e8d3aed0a04f75a497417a9fba179d2ae9",
+        "location": {
+            "path": "src/Core/Container.php",
+            "lines": {
+                "begin": 19
+            }
+        }
+    },
+    {
+        "description": "Method App\\Core\\Container::get() has parameter $key with no typehint specified.",
+        "fingerprint": "175dc237e3cfd5743c6d23d73ae673c27b37f7a7c73621e2a7e0d7fab4d99fd9",
+        "location": {
+            "path": "src/Core/Container.php",
+            "lines": {
+                "begin": 28
+            }
+        }
+    },
+    {
+        "description": "PHPDoc tag @param has invalid value ($key): Unexpected token \"$key\", expected type at offset 18",
+        "fingerprint": "004ed51aac357b409153d93e2744778044cedd7c1855537ce0df9bb0217900bb",
+        "location": {
+            "path": "src/Core/Container.php",
+            "lines": {
+                "begin": 28
+            }
+        }
+    },
+    {
+        "description": "Method App\\Providers\\PortProvider::getPort() should return int but returns array<string>|bool|string|null.",
+        "fingerprint": "dd96d95bb47a6f09997b0e14645574fc0a8bad64ffeaa2602da3a86f0b726c12",
+        "location": {
+            "path": "src/Providers/PortProvider.php",
+            "lines": {
+                "begin": 48
+            }
+        }
+    },
+    {
+        "description": "Variable $user in PHPDoc tag @var does not exist.",
+        "fingerprint": "ea8dae5bab45962fb14b67f1fb29cc9174ef43096aa0bb407160c0f1057f5834",
+        "location": {
+            "path": "src/Providers/SshUserProvider.php",
+            "lines": {
+                "begin": 80
+            }
+        }
+    },
+    {
+        "description": "Method App\\Services\\InputFileLoader::getInput() return type has no value type specified in iterable type array.",
+        "fingerprint": "c3f0b7bf268d3b0aa9322970723417e66e1d4da12dceb1d2dc3d5859d0a30d06",
+        "location": {
+            "path": "src/Services/InputFileLoader.php",
+            "lines": {
+                "begin": 28
+            }
+        }
+    },
+    {
+        "description": "Method App\\Tests\\Factories\\AwsProfileFactory::create() has parameter $input with no value type specified in iterable type array.",
+        "fingerprint": "0eca28b87a6950ad4a1d20032507372f7bc35939f0165616bf832a8cff87eb50",
+        "location": {
+            "path": "tests/Factories/AwsProfileFactory.php",
+            "lines": {
+                "begin": 13
+            }
+        }
+    },
+    {
+        "description": "Method App\\Tests\\Factories\\Ec2InstanceFactory::create() has parameter $input with no value type specified in iterable type array.",
+        "fingerprint": "fd43c82e946c6be13074ef114cfc612d66e9be4e4e2e7cfc713a16846ca594b4",
+        "location": {
+            "path": "tests/Factories/Ec2InstanceFactory.php",
+            "lines": {
+                "begin": 13
+            }
+        }
+    },
+    {
+        "description": "Method App\\Tests\\Factories\\RdsInstanceFactory::create() has parameter $input with no value type specified in iterable type array.",
+        "fingerprint": "221c9b5f9a58c0242f18fd0d1c7d915aa61f0d5845f81ec3c164e6b0c33654c3",
+        "location": {
+            "path": "tests/Factories/RdsInstanceFactory.php",
+            "lines": {
+                "begin": 13
+            }
+        }
+    },
+    {
+        "description": "Method App\\Tests\\Factories\\SshKeyFactory::create() has parameter $input with no value type specified in iterable type array.",
+        "fingerprint": "8ef5def030b1d11e8d7ad5c1be2e8bfe64f9069920f0768d61d63edc4513ef18",
+        "location": {
+            "path": "tests/Factories/SshKeyFactory.php",
+            "lines": {
+                "begin": 13
+            }
+        }
+    },
+    {
+        "description": "PHPDoc tag @var for property App\\Tests\\Providers\\AwsProfileProviderTest::$awsProfileManager with type App\\Services\\AwsProfileManager|PHPUnit\\Framework\\MockObject\\MockObject is not subtype of native type App\\Services\\AwsProfileManager.",
+        "fingerprint": "c6319c2afb8fb5faf19e50fff1f749671bba47bf9603b559de2ce2b1fb72271a",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 21
+            }
+        }
+    },
+    {
+        "description": "PHPDoc tag @var for property App\\Tests\\Providers\\AwsProfileProviderTest::$io with type PHPUnit\\Framework\\MockObject\\MockObject|Symfony\\Component\\Console\\Style\\SymfonyStyle is not subtype of native type Symfony\\Component\\Console\\Style\\SymfonyStyle.",
+        "fingerprint": "d36674f0f6bd36b3208d31e710ea5a340941392cec4da4dd89381e2e9c0469e4",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 26
+            }
+        }
+    },
+    {
+        "description": "PHPDoc tag @var for property App\\Tests\\Providers\\AwsProfileProviderTest::$input with type PHPUnit\\Framework\\MockObject\\MockObject|Symfony\\Component\\Console\\Input\\InputInterface is not subtype of native type Symfony\\Component\\Console\\Input\\InputInterface.",
+        "fingerprint": "02da1aecd2a42ac0ad299d5a6094cc2add7e1e7922ed6bd742764904d54dc24b",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 31
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::method().",
+        "fingerprint": "a5897d9b90c51da89a73f5b7a0ee8887e5bb0f39dfc427be89ecf3632dc7cd85",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 98
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\AwsProfileManager::method().",
+        "fingerprint": "6d17f69744672314ca58b8d29c77e48eb452f9df34bc5e5c2d667d91e9a63825",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 120
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Style\\SymfonyStyle::expects().",
+        "fingerprint": "f434e084f197b5884c461e0c9b79044c168204a08371290ab2cdbd0309fb2ce4",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 123
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::method().",
+        "fingerprint": "21e98010d0d7f94d72ff805a2dd92d5240cc36499c2b92a019cbf52dea10a05a",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 145
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\AwsProfileManager::method().",
+        "fingerprint": "ae86aa1c50183bd2419fa5d653dde568b008cb4c68c36591170f8dbcca5fd0e1",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 146
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::method().",
+        "fingerprint": "120b0f774aa7388072db13f239c899d9b5158ec2d07f298e83f31e449a317087",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 161
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\AwsProfileManager::method().",
+        "fingerprint": "d96129886c807676ee84def021fc7b4c71a32a4bfa7952c24b70420cc69197fa",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 162
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\AwsProfileManager::method().",
+        "fingerprint": "4d86d83d7f9d0614e343e0ef067ca393bfe3558b313d87ede2569afc0b27fbe3",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 175
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Style\\SymfonyStyle::expects().",
+        "fingerprint": "b11df0d1dfa2c9478ab2b25f9471b0c487f7ef4cb3de16383ff8948bf16965aa",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 178
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\AwsProfileManager::method().",
+        "fingerprint": "52d7416e258ad4c97c88e3ba174f5ce058f8e0162ed2b410302efb1f61654efc",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 200
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\AwsProfileManager::method().",
+        "fingerprint": "d0b9ecba19464c1f922263674df4c12f4a025c5949826519c934bec270ab3944",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 225
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::method().",
+        "fingerprint": "f0f0611f7ba5db55c1d1274ceae72f30fd8927d37229c4556c5f57f804b193f4",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 228
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\AwsProfileManager::method().",
+        "fingerprint": "350dbcc21bfe9cc5cc44d6eca846612e2b7c3b43927ce5dd3d8f1935cc311d23",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 232
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Style\\SymfonyStyle::expects().",
+        "fingerprint": "1b0316a0215fb3cfa834f63d643ccb4ad1f785a3e0ff5cdadf459057cef06b99",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 235
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::method().",
+        "fingerprint": "f247146348551aa436fb68b48a8cff6486e256dea0f06a6a6e23fe5ed00442cc",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 256
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\AwsProfileManager::method().",
+        "fingerprint": "a8b4ecd9683bd4c2cfca428f56fd2c4144c3669ae21b9f1d0e858895f0dd0b52",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 257
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\AwsProfileManager::expects().",
+        "fingerprint": "764749bcf2b3cfc282d7e31b5be42f8c115be1f5f362324ef38879a705e8ac50",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 261
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\AwsProfileManager::method().",
+        "fingerprint": "f4a478f3cdc0db10a122f0b5065118e9e7e0abc29bb2a9b8fa1b393ef9392575",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 283
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Style\\SymfonyStyle::expects().",
+        "fingerprint": "1b7c2d46f498342572d2d91984ba13f34eb561fe6891b9b1f9f9c273f8d8d424",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 286
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\AwsProfileManager::expects().",
+        "fingerprint": "964969eac7bd16845b8ba78b0b833ff72c816566d24051f42ce4cbf4e328c211",
+        "location": {
+            "path": "tests/Providers/AwsProfileProviderTest.php",
+            "lines": {
+                "begin": 297
+            }
+        }
+    },
+    {
+        "description": "PHPDoc tag @var for property App\\Tests\\Providers\\Ec2InstanceProviderTest::$ec2InstanceManager with type App\\Services\\EC2InstanceManager|PHPUnit\\Framework\\MockObject\\MockObject is not subtype of native type App\\Services\\EC2InstanceManager.",
+        "fingerprint": "6127d22bcf0cbffd28fd0f08ea52b32f9e60dacb95a5c1251747ca6a1282616d",
+        "location": {
+            "path": "tests/Providers/Ec2InstanceProviderTest.php",
+            "lines": {
+                "begin": 20
+            }
+        }
+    },
+    {
+        "description": "PHPDoc tag @var for property App\\Tests\\Providers\\Ec2InstanceProviderTest::$io with type PHPUnit\\Framework\\MockObject\\MockObject|Symfony\\Component\\Console\\Style\\SymfonyStyle is not subtype of native type Symfony\\Component\\Console\\Style\\SymfonyStyle.",
+        "fingerprint": "8a94ae9b0ee3ae148da87e7f8fb3ee646e7edff018959500d6a71375441b389c",
+        "location": {
+            "path": "tests/Providers/Ec2InstanceProviderTest.php",
+            "lines": {
+                "begin": 25
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\EC2InstanceManager::expects().",
+        "fingerprint": "34cd09b9cd0b50913e8218635e4c535bbbcf32ad5a7bd904656a04d2e780d17b",
+        "location": {
+            "path": "tests/Providers/Ec2InstanceProviderTest.php",
+            "lines": {
+                "begin": 74
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Style\\SymfonyStyle::expects().",
+        "fingerprint": "3409a8a9a400a6a7f415f72c4acf7eedcdf08320c548098782002c59bea35d78",
+        "location": {
+            "path": "tests/Providers/Ec2InstanceProviderTest.php",
+            "lines": {
+                "begin": 79
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\EC2InstanceManager::expects().",
+        "fingerprint": "d84cbd7b39c31eafede6528fd7ae8bc4e6fbef3f7550d875054acb7b6138cf5a",
+        "location": {
+            "path": "tests/Providers/Ec2InstanceProviderTest.php",
+            "lines": {
+                "begin": 101
+            }
+        }
+    },
+    {
+        "description": "PHPDoc tag @var for property App\\Tests\\Providers\\FileInputProviderTest::$inputFileLoader with type App\\Services\\InputFileLoader|PHPUnit\\Framework\\MockObject\\MockObject is not subtype of native type App\\Services\\InputFileLoader.",
+        "fingerprint": "e4b59695881970165f330047590b8d1eb565bf506bd642c9721ffc1a057cc63b",
+        "location": {
+            "path": "tests/Providers/FileInputProviderTest.php",
+            "lines": {
+                "begin": 17
+            }
+        }
+    },
+    {
+        "description": "PHPDoc tag @var for property App\\Tests\\Providers\\FileInputProviderTest::$input with type PHPUnit\\Framework\\MockObject\\MockObject|Symfony\\Component\\Console\\Input\\InputInterface is not subtype of native type Symfony\\Component\\Console\\Input\\InputInterface.",
+        "fingerprint": "a66969840c0380b68f0a9992475dbe9cfb9d6845774d4bfd92ee60704d2e52ec",
+        "location": {
+            "path": "tests/Providers/FileInputProviderTest.php",
+            "lines": {
+                "begin": 22
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\InputFileLoader::method().",
+        "fingerprint": "5ddd253c8ad6e480c19b9b962fbaab3ddbbdeb5f0a7e953be98545a9b1fee8cd",
+        "location": {
+            "path": "tests/Providers/FileInputProviderTest.php",
+            "lines": {
+                "begin": 84
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::method().",
+        "fingerprint": "f602c5a2a74bb7bcc956228463e075f73ed1e04055359e2216a7adfa707e5f1e",
+        "location": {
+            "path": "tests/Providers/FileInputProviderTest.php",
+            "lines": {
+                "begin": 85
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::expects().",
+        "fingerprint": "5a388c9e9bbee62cf2b2ebd56cffe4d951e0d42b187c9f61b2cf175a0d9edeca",
+        "location": {
+            "path": "tests/Providers/FileInputProviderTest.php",
+            "lines": {
+                "begin": 87
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::expects().",
+        "fingerprint": "37675ff0045a2a04880f603d89949bae00853aa488acf830894091b7e02c247b",
+        "location": {
+            "path": "tests/Providers/FileInputProviderTest.php",
+            "lines": {
+                "begin": 105
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\InputFileLoader::method().",
+        "fingerprint": "d44ae274ea1955501747489e01bbc073fc1d0357d5f317652746d8d34ed74ce8",
+        "location": {
+            "path": "tests/Providers/FileInputProviderTest.php",
+            "lines": {
+                "begin": 110
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::method().",
+        "fingerprint": "c08f704dd1770694261653fb1eba97faad20bbcb10ec5ac6ddcdf17598d35b29",
+        "location": {
+            "path": "tests/Providers/FileInputProviderTest.php",
+            "lines": {
+                "begin": 111
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::expects().",
+        "fingerprint": "ebe51ae9219bb6f4108db821e87d131c26171344f33d7d6f890a1e38d567e526",
+        "location": {
+            "path": "tests/Providers/FileInputProviderTest.php",
+            "lines": {
+                "begin": 113
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::expects().",
+        "fingerprint": "ebdcdeba1f4fd76ef4d585f0f097c996cfdf293876679a56c569e6fc9d5dbe77",
+        "location": {
+            "path": "tests/Providers/FileInputProviderTest.php",
+            "lines": {
+                "begin": 135
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\InputFileLoader::method().",
+        "fingerprint": "47142e0ede393e10d153846a6432b29ed45ba5b551679923d5b0a4afb5c93423",
+        "location": {
+            "path": "tests/Providers/FileInputProviderTest.php",
+            "lines": {
+                "begin": 140
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::method().",
+        "fingerprint": "13040a62c8f1a04573541f8e983cc97a076f3670c926ca7302babc53a4b7bbd1",
+        "location": {
+            "path": "tests/Providers/FileInputProviderTest.php",
+            "lines": {
+                "begin": 141
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::expects().",
+        "fingerprint": "5bb52bc807723c515a52d979fb21c44bb5e9f0a977242e77e8de2c79d02884eb",
+        "location": {
+            "path": "tests/Providers/FileInputProviderTest.php",
+            "lines": {
+                "begin": 143
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::method().",
+        "fingerprint": "c65ec7b97c0a8070de1ed7a8ce5df20462a131f2c9eeb7ca54e24d4c7f0351a1",
+        "location": {
+            "path": "tests/Providers/FileInputProviderTest.php",
+            "lines": {
+                "begin": 165
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\InputFileLoader::method().",
+        "fingerprint": "89fc435ba5f67e3b17cca68fef47de66e43e24247cdf138493f68cba10c334d5",
+        "location": {
+            "path": "tests/Providers/FileInputProviderTest.php",
+            "lines": {
+                "begin": 170
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::method().",
+        "fingerprint": "a1a6874ef4d76c4f5074ab79ef4fa13f8e94fae094b559bbf872840a6d815794",
+        "location": {
+            "path": "tests/Providers/FileInputProviderTest.php",
+            "lines": {
+                "begin": 171
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::expects().",
+        "fingerprint": "427e6f875c97e653098b71638925ddb489c21d7c2f9c81594df3e50c5d786a18",
+        "location": {
+            "path": "tests/Providers/FileInputProviderTest.php",
+            "lines": {
+                "begin": 173
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::expects().",
+        "fingerprint": "1f069e5255188b3cb6342afcec76a265222fa0f8efee6a19357d2a2a7935aa12",
+        "location": {
+            "path": "tests/Providers/FileInputProviderTest.php",
+            "lines": {
+                "begin": 195
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\InputFileLoader::method().",
+        "fingerprint": "763b4cfe127b00868ff2f2561acb905346346044e5ef077609336bf424b6a708",
+        "location": {
+            "path": "tests/Providers/FileInputProviderTest.php",
+            "lines": {
+                "begin": 200
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::method().",
+        "fingerprint": "675573e6c87b83ea4e35d5bd660691fa4ccdab38dc5c4c5c5579c337c5894e2a",
+        "location": {
+            "path": "tests/Providers/FileInputProviderTest.php",
+            "lines": {
+                "begin": 201
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::expects().",
+        "fingerprint": "f9bdb4662b9f4ae1d8a1df7ec2afd04f74d45fee103aaef5e8e791c9aa247221",
+        "location": {
+            "path": "tests/Providers/FileInputProviderTest.php",
+            "lines": {
+                "begin": 203
+            }
+        }
+    },
+    {
+        "description": "PHPDoc tag @var for property App\\Tests\\Providers\\PortProviderTest::$input with type PHPUnit\\Framework\\MockObject\\MockObject|Symfony\\Component\\Console\\Input\\InputInterface is not subtype of native type Symfony\\Component\\Console\\Input\\InputInterface.",
+        "fingerprint": "fe47f9a6af539550c0bece759ef5663d196791b1ccbf7e175f2f039b37096508",
+        "location": {
+            "path": "tests/Providers/PortProviderTest.php",
+            "lines": {
+                "begin": 17
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::expects().",
+        "fingerprint": "6c80c7e815886901fb46a341f5099aca04c497aec122cc468f6c212b234e8ac3",
+        "location": {
+            "path": "tests/Providers/PortProviderTest.php",
+            "lines": {
+                "begin": 68
+            }
+        }
+    },
+    {
+        "description": "PHPDoc tag @var for property App\\Tests\\Providers\\RdsInstanceProviderTest::$rdsInstanceManager with type App\\Services\\RdsInstanceManager|PHPUnit\\Framework\\MockObject\\MockObject is not subtype of native type App\\Services\\RdsInstanceManager.",
+        "fingerprint": "64f0f10bd2a61b3c387b6855e7c89fb53e8179713d343f94ae1261225e6aac2b",
+        "location": {
+            "path": "tests/Providers/RdsInstanceProviderTest.php",
+            "lines": {
+                "begin": 21
+            }
+        }
+    },
+    {
+        "description": "PHPDoc tag @var for property App\\Tests\\Providers\\RdsInstanceProviderTest::$io with type PHPUnit\\Framework\\MockObject\\MockObject|Symfony\\Component\\Console\\Style\\SymfonyStyle is not subtype of native type Symfony\\Component\\Console\\Style\\SymfonyStyle.",
+        "fingerprint": "b1518ee526ac6a5e29d51cb4c91cd9b4490ab894fc6c75e2a6cd1d2b9c0b870e",
+        "location": {
+            "path": "tests/Providers/RdsInstanceProviderTest.php",
+            "lines": {
+                "begin": 26
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\RdsInstanceManager::expects().",
+        "fingerprint": "2e97c5887cab96e555a86ac1b6dc0a3aeaec467cc1aaf42d85009cb0f4699ea1",
+        "location": {
+            "path": "tests/Providers/RdsInstanceProviderTest.php",
+            "lines": {
+                "begin": 75
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Style\\SymfonyStyle::expects().",
+        "fingerprint": "0bd736aedc02108e2125f988b55d3479489ade4f08369dd55104ad88b441aec1",
+        "location": {
+            "path": "tests/Providers/RdsInstanceProviderTest.php",
+            "lines": {
+                "begin": 80
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\RdsInstanceManager::expects().",
+        "fingerprint": "3c40814beeaf307ee18b7087e1b73bdadf7bf3575e711dfa039aa6c46e496b4c",
+        "location": {
+            "path": "tests/Providers/RdsInstanceProviderTest.php",
+            "lines": {
+                "begin": 102
+            }
+        }
+    },
+    {
+        "description": "PHPDoc tag @var for property App\\Tests\\Providers\\SshKeyProviderTest::$io with type PHPUnit\\Framework\\MockObject\\MockObject|Symfony\\Component\\Console\\Style\\SymfonyStyle is not subtype of native type Symfony\\Component\\Console\\Style\\SymfonyStyle.",
+        "fingerprint": "712df64c459fd2abe162145959f0e6a3492516a879b2b67fb8ff846365a9480d",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 21
+            }
+        }
+    },
+    {
+        "description": "PHPDoc tag @var for property App\\Tests\\Providers\\SshKeyProviderTest::$input with type PHPUnit\\Framework\\MockObject\\MockObject|Symfony\\Component\\Console\\Input\\InputInterface is not subtype of native type Symfony\\Component\\Console\\Input\\InputInterface.",
+        "fingerprint": "10930f23dd392c47e9e48820ba1eb37b8fe4ca125216b98491af2c2975c1f531",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 26
+            }
+        }
+    },
+    {
+        "description": "PHPDoc tag @var for property App\\Tests\\Providers\\SshKeyProviderTest::$sshKeyManager with type App\\Services\\SshKeyManager|PHPUnit\\Framework\\MockObject\\MockObject is not subtype of native type App\\Services\\SshKeyManager.",
+        "fingerprint": "785a7c50775a5c2fb8376cd0f1c9c254a45c782461a4ad1b1c2d99a8dbb3cd71",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 31
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\SshKeyManager::method().",
+        "fingerprint": "6b229ebf6afb674afc66dc28d387c233e08800fb1c84f56c09b5f71ed998d04e",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 108
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Style\\SymfonyStyle::expects().",
+        "fingerprint": "8dfe5785bc7f47a5c3b439e05f6e5648d300050facf6f77a036e8c6e27e82ac4",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 111
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\SshKeyManager::method().",
+        "fingerprint": "f296374a434158dc480b82d138d180a0c7a93cb18e7935e0018b28505bbe1a1c",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 135
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::method().",
+        "fingerprint": "c423c2248cce051ebcbe81f6e0728c808463cf621a8c54560430f1d42f4923cb",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 138
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Style\\SymfonyStyle::expects().",
+        "fingerprint": "34030bada1fbf0c03615bd2e69b9de1725b87c0c39e3784af3bf6348adca59ca",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 142
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\SshKeyManager::method().",
+        "fingerprint": "3a85b737be85748e48bae2117d3c4b5bde03269414c8e74dc968a6c321541614",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 167
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Style\\SymfonyStyle::expects().",
+        "fingerprint": "203aa9c0184ef0c015d18a67a0d0d4a9fdbfe1c8ade7bd35bae6a653d3be7326",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 170
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Style\\SymfonyStyle::expects().",
+        "fingerprint": "252fcbe094ab8357cbd3aa9bf9e947d1857d26c00c3e3813168347c08c051df9",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 182
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\SshKeyManager::method().",
+        "fingerprint": "cb3038a500774465ab3d97831689407baa8331c32a195e6fd9a4498287962bbe",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 202
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Style\\SymfonyStyle::expects().",
+        "fingerprint": "ecd46297c6caf3357630a93a966dfa52f38ed50fb6b94f83a28b46ae7a90d5aa",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 205
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Style\\SymfonyStyle::expects().",
+        "fingerprint": "0d965daaef1751b211ae63976e4f52292a1f2f75b16d50d7d2cf85a76dcfb6bd",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 217
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Style\\SymfonyStyle::expects().",
+        "fingerprint": "679abb7c914da5c47b073f24a4a8064e0a6c8ead422be7411d9bfddcc1a3fdc4",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 222
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\SshKeyManager::method().",
+        "fingerprint": "672fd03be3b027a58437b7a74736dd5e4759f6846892a2006ec7eb5db2f798d1",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 241
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\SshKeyManager::method().",
+        "fingerprint": "430bcbf3e4358881fe24e97fd805c4f6dc4ab98c0f0ba28c5c7312f41943af15",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 257
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\SshKeyManager::method().",
+        "fingerprint": "d727330d2aef5f62005e270e9ca3c77d3d726fd62a90b1527428939d67951ec7",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 260
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::method().",
+        "fingerprint": "4564339a196f2b820cc7fd2f93aee5c4d11f88c31f6ae2545fd659daffb04fe0",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 263
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Style\\SymfonyStyle::expects().",
+        "fingerprint": "ca3bdeb19726763ba3f78523494dea9db049ec6c52591e1655ababa9e891dd19",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 267
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\SshKeyManager::method().",
+        "fingerprint": "e7a2a3b4b4bb9654a29d3475a2ff2248d441f9769b89ad6bd164fc83b2bbfa82",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 293
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\SshKeyManager::method().",
+        "fingerprint": "5ba7294794511e81839faf51043faba011bc7bb036fea955283df70586cbae17",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 296
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Style\\SymfonyStyle::expects().",
+        "fingerprint": "084bc217a35095e81bfb8b65f6253cad7eb4963cead7137c83f8431f4a522726",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 299
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::method().",
+        "fingerprint": "6ddf9a790024722e1f84e21bdfe8aa3608f39f1deef4fc98c96a37dfbb77b666",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 325
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::method().",
+        "fingerprint": "b710b3b5c5122f42789cdecc333d401171dbb91d5f1d04bffdbdb4c76e05cf38",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 343
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\SshKeyManager::expects().",
+        "fingerprint": "d647e8c65f4f928bf58c6c8f775028f62a66346b2f9a7fd6e13ea64d569fe667",
+        "location": {
+            "path": "tests/Providers/SshKeyProviderTest.php",
+            "lines": {
+                "begin": 347
+            }
+        }
+    },
+    {
+        "description": "PHPDoc tag @var for property App\\Tests\\Providers\\SshUserProviderTest::$io with type PHPUnit\\Framework\\MockObject\\MockObject|Symfony\\Component\\Console\\Style\\SymfonyStyle is not subtype of native type Symfony\\Component\\Console\\Style\\SymfonyStyle.",
+        "fingerprint": "510c9590abfe8ee1131fa3be36d96e21298fe7feb2340bfd462e483de6d8cb62",
+        "location": {
+            "path": "tests/Providers/SshUserProviderTest.php",
+            "lines": {
+                "begin": 22
+            }
+        }
+    },
+    {
+        "description": "PHPDoc tag @var for property App\\Tests\\Providers\\SshUserProviderTest::$input with type PHPUnit\\Framework\\MockObject\\MockObject|Symfony\\Component\\Console\\Input\\InputInterface is not subtype of native type Symfony\\Component\\Console\\Input\\InputInterface.",
+        "fingerprint": "82d11f1d6f46d057c9b6f1818780f1e9f5c413d679a18f0766fbf4592901311e",
+        "location": {
+            "path": "tests/Providers/SshUserProviderTest.php",
+            "lines": {
+                "begin": 27
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::method().",
+        "fingerprint": "0b053c3e7170e8b9d490308121f73272b9aac61090fb7012d87d54932f402799",
+        "location": {
+            "path": "tests/Providers/SshUserProviderTest.php",
+            "lines": {
+                "begin": 104
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Input\\InputInterface::method().",
+        "fingerprint": "bd7e0e2f5def316e201eb948da360042586ebdb179f372224ec4d64efa8faa2d",
+        "location": {
+            "path": "tests/Providers/SshUserProviderTest.php",
+            "lines": {
+                "begin": 117
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method Symfony\\Component\\Console\\Style\\SymfonyStyle::expects().",
+        "fingerprint": "221927cb77e3891c42ad823664e13109b22740821a4f0dc0402b0878899f3827",
+        "location": {
+            "path": "tests/Providers/SshUserProviderTest.php",
+            "lines": {
+                "begin": 121
+            }
+        }
+    },
+    {
+        "description": "PHPDoc tag @var for property App\\Tests\\Services\\AwsProfileManagerTest::$persistence with type App\\Contracts\\PersistenceManagerInterface|PHPUnit\\Framework\\MockObject\\MockObject is not subtype of native type App\\Contracts\\PersistenceManagerInterface.",
+        "fingerprint": "b4ed2bab31ba210992885017ba00a0d0f558165491e5ffe61ebcf5d5248f2898",
+        "location": {
+            "path": "tests/Services/AwsProfileManagerTest.php",
+            "lines": {
+                "begin": 17
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Contracts\\PersistenceManagerInterface::method().",
+        "fingerprint": "e3da91596ba64d0dfbef62d616f1c3019e514710b29a3d0aaf328610dde56c04",
+        "location": {
+            "path": "tests/Services/AwsProfileManagerTest.php",
+            "lines": {
+                "begin": 132
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Contracts\\PersistenceManagerInterface::expects().",
+        "fingerprint": "446d123337327eda6d9029e5edf152ef2dc33855f410f30c6e134d91014a2fd9",
+        "location": {
+            "path": "tests/Services/AwsProfileManagerTest.php",
+            "lines": {
+                "begin": 158
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Contracts\\PersistenceManagerInterface::expects().",
+        "fingerprint": "d62c06dc6f1efef9889f88bccf6d8c2c7988052ff4f6c4bfbc94e20cedadf2c0",
+        "location": {
+            "path": "tests/Services/AwsProfileManagerTest.php",
+            "lines": {
+                "begin": 177
+            }
+        }
+    },
+    {
+        "description": "PHPDoc tag @var for property App\\Tests\\Services\\EC2InstanceManagerTest::$awsApiClient with type App\\Services\\AwsApiClient|PHPUnit\\Framework\\MockObject\\MockObject is not subtype of native type App\\Services\\AwsApiClient.",
+        "fingerprint": "a319e8a9b081484c6e17441eb14b1d1f5d4b2efeb850fbe47842fdd117057fe6",
+        "location": {
+            "path": "tests/Services/EC2InstanceManagerTest.php",
+            "lines": {
+                "begin": 22
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\AwsApiClient::method().",
+        "fingerprint": "fff60e29868dfdcb8882a4c7b3ca335d12bd144fb8230f09c90f50eb11618e23",
+        "location": {
+            "path": "tests/Services/EC2InstanceManagerTest.php",
+            "lines": {
+                "begin": 109
+            }
+        }
+    },
+    {
+        "description": "PHPDoc tag @var for property App\\Tests\\Services\\RdsInstanceManagerTest::$awsApiClient with type App\\Services\\AwsApiClient|PHPUnit\\Framework\\MockObject\\MockObject is not subtype of native type App\\Services\\AwsApiClient.",
+        "fingerprint": "78d9ceeb1b434dc538f8e27d90e4688cc3125ec90398543bfb3042f7de5fc378",
+        "location": {
+            "path": "tests/Services/RdsInstanceManagerTest.php",
+            "lines": {
+                "begin": 22
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Services\\AwsApiClient::method().",
+        "fingerprint": "5a920037437d47c11c05ff0a3b92d7031b526e6f90e22b12181e302f5ef2791c",
+        "location": {
+            "path": "tests/Services/RdsInstanceManagerTest.php",
+            "lines": {
+                "begin": 98
+            }
+        }
+    },
+    {
+        "description": "PHPDoc tag @var for property App\\Tests\\Services\\SshKeyManagerTest::$persistence with type App\\Contracts\\PersistenceManagerInterface|PHPUnit\\Framework\\MockObject\\MockObject is not subtype of native type App\\Contracts\\PersistenceManagerInterface.",
+        "fingerprint": "36b36d49d8e32b92ee2aa64ae6d71bcd0d8a4090d92399a7ea556a7c8ccd0056",
+        "location": {
+            "path": "tests/Services/SshKeyManagerTest.php",
+            "lines": {
+                "begin": 19
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Contracts\\PersistenceManagerInterface::method().",
+        "fingerprint": "eab745a3692b5f09fe566499aff881d0d5871c99820513a5b425175cc302214a",
+        "location": {
+            "path": "tests/Services/SshKeyManagerTest.php",
+            "lines": {
+                "begin": 89
+            }
+        }
+    },
+    {
+        "description": "Call to an undefined method App\\Contracts\\PersistenceManagerInterface::expects().",
+        "fingerprint": "58213a6225b2443fbc2c86e276476524f10813482d9aeb240047a4e9d6503872",
+        "location": {
+            "path": "tests/Services/SshKeyManagerTest.php",
+            "lines": {
+                "begin": 111
+            }
+        }
+    }
+]
