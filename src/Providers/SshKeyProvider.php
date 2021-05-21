@@ -74,8 +74,7 @@ class SshKeyProvider
      */
     private function shouldSelectSshKey(): bool
     {
-        return $this->input->getOption(self::OPTION_SELECT_SSH_KEY)
-            && !$this->input->getArgument(self::ARGUMENT_SSH_KEY);
+        return $this->input->getOption(self::OPTION_SELECT_SSH_KEY);
     }
 
     /**
