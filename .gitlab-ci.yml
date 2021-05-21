@@ -11,7 +11,11 @@ before_script:
 static_analysis:
     image: php:8
     script:
-        - php --version && php -d memory_limit=-1 vendor/bin/phpstan analyse
+        - php -d memory_limit=-1 vendor/bin/phpstan analyse -l 6 --no-progress --error-format gitlab > phpstan.json
+    artifacts:
+        when: always
+        reports:
+            codequality: phpstan.json
 
 test:7.4:
     image: php:7.4
